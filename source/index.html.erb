@@ -2,14 +2,51 @@
 title: Le Wagon - Middleman
 ---
 
-<div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+<%= partial "layouts/banner" %>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-4">
+      <%= partial "layouts/cards" %>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <%= partial "layouts/cards" %>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <%= partial "layouts/cards" %>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <%= partial "layouts/cards" %>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <%= partial "layouts/cards" %>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <%= partial "layouts/cards" %>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <%= partial "layouts/cards" %>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <%= partial "layouts/cards" %>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <%= partial "layouts/cards" %>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <%= partial "layouts/cards" %>
+    </div>
   </div>
 </div>
+
+  <div id="home">
+    <div class="home-content">
+      <%= image_tag "logo.png", width: "200" %>
+      <p>
+        Middleman is now running!
+      </p>
+      <p class="about">
+        <%= link_to "More about this template", "about.html" %>
+      </p>
+    </div>
+  </div>
