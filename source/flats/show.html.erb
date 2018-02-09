@@ -2,9 +2,10 @@
 
 <!-- Access data.flats with owner's name as key -->
 
-<%= partial "layouts/header" %>
-
 <% flat = data.flats[owner] %>
+
+<div class="header" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://kitt.lewagon.com/placeholder/cities/<%= flat.city_slug %>');">
+</div>
 
 <!-- Inject flat data in template -->
 <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class: "img-circle" %>
