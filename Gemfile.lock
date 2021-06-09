@@ -20,7 +20,7 @@ GEM
     autoprefixer-rails (7.2.5)
       execjs
     backports (3.11.1)
-    bootstrap-sass (3.3.7)
+    bootstrap-sass (3.4.1)
       autoprefixer-rails (>= 5.2.1)
       sass (>= 3.3.4)
     byebug (10.0.0)
